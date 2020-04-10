@@ -1,0 +1,436 @@
+{
+  "QuizAPI":
+  {
+	"Quiz1": {
+		"MCQuestion": [{
+				"q": "What does HTML stand for?",
+				"choice1": "Hyperlink Text Markup Language",
+				"choice2": "Hyperlinks Text Makeup Language",
+				"choice3": "Hypertext Markup Language",
+				"choice4": "Hypertexts Markup Language",
+        "answer": {
+          "correctChoice":"Hypertext Markup Language",
+          "pointsAwarded": 1
+        },
+        "messageIfIncorrect": "Sorry, that is incorrect! The correct answer is Hypertext Markup Language."
+			},
+			{
+				"q": "What is the HTML element for line break?",
+				"choice1": "<bke>",
+				"choice2": "<b>",
+				"choice3": "<br>",
+				"choice4": "<break>",
+        "answer": {
+          "correctChoice":"<br>",
+          "pointsAwarded": 1
+        },
+        "messageIfIncorrect": "Sorry, that is incorrect! The correct answer is <br>."
+			},
+			{
+				"q": "How do you insert a comment in CSS?",
+				"choice1": "// comment",
+				"choice2": "/* comment */",
+				"choice3": "// comment //",
+				"choice4": "“comment”",
+        "answer": {
+          "correctChoice":"/* comment */",
+          "pointsAwarded": 1
+        },
+        "messageIfIncorrect": "Sorry, that is incorrect! The correct answer is /* comment */."
+			},
+			{
+				"q": "In bootstrap, which choice builds a dropdown menu",
+				"choice1": ".drop",
+				"choice2": ".dropdown",
+				"choice3": ".dropdown-menu",
+				"choice4": ".dropdown-header",
+        "answer": {
+          "correctChoice":".dropdown-menu",
+          "pointsAwarded": 1
+        },
+        "messageIfIncorrect": "Sorry, that is incorrect! The correct answer is .dropdown-menu."
+			},
+			{
+				"q": "Which is the proper way to write a Javascript array?",
+				"choice1": "var cars = “coupe”, “sedan”, “suv”",
+				"choice2": "var cars = “coupe” =1,”sedan” =1, “suv”=1",
+				"choice3": "var cars =[“coupe”,”sedan”,”suv”];",
+				"choice4": "var cars={ coupe,sedan,suv}",
+        "answer": {
+          "correctChoice":"var cars =[“coupe”,”sedan”,”suv”];",
+          "pointsAwarded": 1
+        },
+        "messageIfIncorrect": "Sorry, that is incorrect! The correct answer is var cars =[“coupe”,”sedan”,”suv”];."
+			},
+      {
+				"q": "Which programming language uses the following as an output:System.out.println();?",
+				"choice1": "HTML",
+				"choice2": "Java",
+				"choice3": "Javascript",
+				"choice4": "None of the above",
+        "answer": {
+          "correctChoice":"Java",
+          "pointsAwarded": 1
+        },
+        "messageIfIncorrect": "Sorry, that is incorrect! The correct answer is Java."
+			},
+      {
+				"q": "Which of the following function of Number object defines how many total digits to display of a number?",
+				"choice1": "toExponential()",
+				"choice2": "toPrecision()",
+				"choice3": "toLocaleString()",
+				"choice4": "None of the above",
+        "answer": {
+          "correctChoice":"None of the above",
+          "pointsAwarded": 1
+        },
+        "messageIfIncorrect": "Sorry, that is incorrect! The correct answer is None of the above. The correct function is toFixed()."
+      }
+		],
+
+		"TFQuestion": [{
+				"q": "Javascript and Java are the same. ",
+				"Tchoice": "True",
+				"Fchoice": "False",
+        "answer": {
+          "correctChoice":"False",
+          "pointsAwarded": 1
+        },
+        "messageIfIncorrect": "Sorry, that is incorrect! The correct answer is False. They are not the same."
+			},
+			{
+				"q": "A blueprint is the most similar to programming.",
+				"Tchoice": "True",
+				"Fchoice": "False",
+        "answer": {
+          "correctChoice":"True",
+          "pointsAwarded": 1
+        },
+        "messageIfIncorrect": "Sorry, that is incorrect! The correct answer is True. A blueprint is similar to programming."
+			},
+			{
+				"q": "Fortran is the oldest computer programming language, still in use today. ",
+				"Tchoice": "True",
+				"Fchoice": "False",
+        "answer": {
+          "correctChoice":"True",
+          "pointsAwarded": 1
+        },
+        "messageIfIncorrect": "Sorry, that is incorrect! The correct answer is True. Fortran is still being used today. "
+			},
+      {
+				"q": "NaN stands for not a number.",
+				"Tchoice": "True",
+				"Fchoice": "False",
+        "answer": {
+          "correctChoice":"True",
+          "pointsAwarded": 1
+        },
+        "messageIfIncorrect": "Sorry, that is incorrect! The correct answer is True. NaN stands for not a number."
+			},
+      {
+				"q": "CSS is not used for styling.",
+				"Tchoice": "True",
+				"Fchoice": "False",
+        "answer": {
+          "correctChoice":"False",
+          "pointsAwarded": 1
+        },
+        "messageIfIncorrect": "Sorry, that is incorrect! The correct answer is False. CSS is used for styling"
+			},
+      {
+				"q": "All user-defined objects and built-in objects are descendants of an object called Object?",
+				"Tchoice": "True",
+				"Fchoice": "False",
+        "answer": {
+          "correctChoice":"True",
+          "pointsAwarded": 1
+        },
+        "messageIfIncorrect": "Sorry, that is incorrect! The correct answer is True. Objects are all-user defined objects and built-in objects are descendants of an Object."
+			}
+		],
+
+		"FillIn": [{
+				"q": "HTML is a",
+				"option1": "",
+        "answer": {
+          "correctChoice":"Programming language",
+          "pointsAwarded": 1
+        },
+        "messageIfIncorrect": "Sorry, that is incorrect! The correct answer is Programming language. "
+			},
+			{
+				"q": "The current version of HTML is",
+				"option1": "",
+        "answer": {
+          "correctChoice":"HTML5",
+          "pointsAwarded": 1
+        },
+        "messageIfIncorrect": "Sorry, that is incorrect! The correct answer is HTML5. Current version is HTML5."
+			},
+      {
+				"q": "To end the <html> tag you must put",
+				"option1": "",
+				"answer": {
+          "correctChoice":"</html>",
+          "pointsAwarded": 1
+        },
+        "messageIfIncorrect": "Sorry, that is incorrect! The correct answer is </html>."
+      },
+			{
+      "q": "How do you start an HTML5 file?",
+      "option1": "",
+      "answer": {
+        "correctChoice":"<!DOCTYPE HTML>",
+        "pointsAwarded": 1
+      },
+      "messageIfIncorrect": "Sorry, that is incorrect! The correct answer is <!DOCTYPE HTML>."
+      },
+      {
+      "q": "The Bootstrap grid system is based on ",
+      "option1": "",
+      "answer": {
+        "correctChoice":"12 columns",
+        "pointsAwarded": 1
+      },
+      "messageIfIncorrect": "Sorry, that is incorrect! The correct answer is 12 columns."
+    }
+		 ],
+
+		"ShortAnswer": [{
+			"q": "In Javascript, the _____ statement executes a block of code if a specified condition is true. If the condition is false, another block of code can be executed.",
+			"usertext": "",
+      "answer":{
+      "correctChoice":"if/else",
+      "pointsAwarded": 1
+    },
+    "messageIfIncorrect": "Sorry, that is incorrect! The correct answer is if/else. This executes a block of code."
+		},
+    {
+      "q":"How to empty an array in JavaScript?",
+      "usertext":"",
+      "answer":{
+      "correctChoice":"arrayList = []",
+      "pointsAwarded": 1
+    },
+    "messageIfIncorrect": "Sorry, that is incorrect! The correct answer is arrayList = []. This will empty an array."
+    }
+  ]
+  },
+
+  "Quiz2": {
+    "MCQuestion": [{
+        "q": "How to insert a comment that has more than one line?",
+        "choice1": "// comment",
+        "choice2": "// comment //",
+        "choice3": "/* comment */",
+        "choice4": "None of the above",
+        "answer": {
+          "correctChoice": "/* comment */",
+          "pointsAwarded": 1
+        },
+        "messageIfIncorrect": "Sorry, that is incorrect! The correct answer is /* comment */."
+      },
+      {
+        "q": "Which attribute tells the browser where to go when a hyperlink is clicked? ",
+        "choice1": "src",
+        "choice2": "url",
+        "choice3": "link",
+        "choice4": "href",
+        "answer": {
+          "correctChoice":"href",
+          "pointsAwarded": 1
+        },
+        "messageIfIncorrect": "Sorry, that is incorrect! The correct answer is href."
+      },
+      {
+        "q": "What HTML tag creates a bulleted list? ",
+        "choice1": "ol",
+        "choice2": "ul",
+        "choice3": "br",
+        "choice4": "b",
+        "answer": {
+          "correctChoice":"ul",
+          "pointsAwarded": 1
+        },
+        "messageIfIncorrect": "Sorry, that is incorrect! The correct answer is ul. This provides a bulleted list."
+      },
+      {
+        "q": "What class name would you make a full width container in Bootstrap?",
+        "choice1": ".container-full",
+        "choice2": ".container",
+        "choice3": ".container-width",
+        "choice4": ".container-fluid",
+        "answer": {
+          "correctChoice":".container-fluid",
+          "pointsAwarded": 1
+        },
+        "messageIfIncorrect": "Sorry, that is incorrect! The correct answer is .container-fluid. This provides a full-width container."
+      },
+      {
+        "q": "Which of the following function of String object returns a string representing the specified object?",
+        "choice1": "toUpperCase()",
+        "choice2": "toLocaleUpperCase()",
+        "choice3": "toString()",
+        "choice4": "substring()",
+        "answer": {
+          "correctChoice":"toString()",
+          "pointsAwarded": 1
+        },
+        "messageIfIncorrect": "Sorry, that is incorrect! The correct answer is toString()."
+      },
+      {
+        "q": "Which of the following is an example of anonymous function in JavaScript?",
+        "choice1": "var myFunc = function(){ };",
+        "choice2": "function(){ };",
+        "choice3": "var myFunc = (){ };",
+        "choice4": "All of the above",
+        "answer": {
+          "correctChoice":"All of the above",
+          "pointsAwarded": 1
+        },
+        "messageIfIncorrect": "Sorry, that is incorrect! The correct answer is All of the above. It is not just one, but all the options given."
+      }
+    ],
+
+    "TFQuestion": [{
+        "q": "A big challenge with responsive design is finding a balance between the content needs for both mobile and desktop. A desktop site has a lot of visual real estate that is often filled with carousels, videos, background images, and blocks of text.",
+        "Tchoice": "True",
+        "Fchoice": "False",
+        "answer": {
+          "correctChoice":"True",
+          "pointsAwarded": 1
+        },
+        "messageIfIncorrect": "Sorry, that is incorrect! The correct answer is True."
+      },
+      {
+				"q": "A mobile first approach considers the goals of a mobile user and presents the content to help them achieve those goals. It removes all the content and presents a concise collection of content that loads fast. ",
+				"Tchoice": "True",
+				"Fchoice": "False",
+        "answer": {
+          "correctChoice":"True",
+          "pointsAwarded": 1
+        },
+        "messageIfIncorrect": "Sorry, that is incorrect! The correct answer is True."
+			},
+      {
+				"q": "Flexbox is NOT a core CSS technology but a custom named component created by Bootstrap. ",
+				"Tchoice": "True",
+				"Fchoice": "False",
+        "answer": {
+          "correctChoice":"False",
+          "pointsAwarded": 1
+        },
+        "messageIfIncorrect": "Sorry, that is incorrect! The correct answer is False. Flexbox is a core CSS technology."
+			},
+      {
+				"q": "Cards replace panels, thumbnails, and wells used in Bootstrap 3 and are essentially a contained group of content with a border and inner padding. ",
+				"Tchoice": "True",
+				"Fchoice": "False",
+        "answer": {
+          "correctChoice":"True",
+          "pointsAwarded": 1
+        },
+        "messageIfIncorrect": "Sorry, that is incorrect! The correct answer is True."
+			},
+      {
+				"q": "All user-defined objects and built-in objects are descendants of an object called Object?",
+				"Tchoice": "True",
+				"Fchoice": "False",
+        "answer": {
+          "correctChoice":"True",
+          "pointsAwarded": 1
+        },
+        "messageIfIncorrect": "Sorry, that is incorrect! The correct answer is True. Descendants of an object are all-user defined objects and built-in objects."
+			},
+      {
+				"q": "JavaScript is ECMAScript",
+				"Tchoice": "True",
+				"Fchoice": "False",
+        "answer": {
+          "correctChoice":"True",
+          "pointsAwarded": 1
+        },
+        "messageIfIncorrect": "Sorry, that is incorrect! The correct answer is True."
+			},
+      {
+				"q": "The external JavaScript file must contain <script> tag. ",
+				"Tchoice": "True",
+				"Fchoice": "False",
+        "answer": {
+          "correctChoice":"False",
+          "pointsAwarded": 1
+        },
+        "messageIfIncorrect": "Sorry, that is incorrect! The correct answer is False. It does not have to contain the <script> tag."
+      }
+    ],
+
+    "FillIn": [{
+        "q": "Setting a grid tier of .col-sm-6 says ",
+        "option1": "",
+        "answer": {
+          "correctChoice":"Make this div 6 columns wide ",
+          "pointsAwarded": 1
+        },
+        "messageIfIncorrect": "Sorry, that is incorrect! The correct answer is Make this div 6 columns wide."
+      },
+      {
+				"q": "In Bootstrap 4, 1rem =",
+				"option1": "",
+        "answer": {
+          "correctChoice":"16px",
+          "pointsAwarded": 1
+        },
+        "messageIfIncorrect": "Sorry, that is incorrect! The correct answer is 16px."
+			},
+      {
+				"q": "Variable in JavaScript declared with ",
+				"option1": "",
+        "answer": {
+          "correctChoice":"var",
+          "pointsAwarded": 1
+        },
+        "messageIfIncorrect": "Sorry, that is incorrect! The correct answer is var."
+			},
+      {
+				"q": "The absense of value in JavaScript means ",
+				"option1": "",
+        "answer": {
+          "correctChoice":"null",
+          "pointsAwarded": 1
+        },
+        "messageIfIncorrect": "Sorry, that is incorrect! The correct answer is null."
+			},
+      {
+        "q": "A string, number and ____ are primitive types in Javascript ",
+        "option1": "",
+        "answer": {
+          "correctChoice":"Boolean",
+          "pointsAwarded": 1
+        },
+        "messageIfIncorrect": "Sorry, that is incorrect! The correct answer is Boolean."
+      }
+    ],
+
+    "ShortAnswer": [{
+      "q": "Which of the following object represent parameters of current function inside any function?",
+      "usertext": "",
+      "answer":{
+      "correctChoice":"arguments",
+      "pointsAwarded": 1
+    },
+    "messageIfIncorrect": "Sorry, that is incorrect! The correct answer is arguments. They represent parameters of current functions inside any functions."
+    },
+    {
+      "q":"What will 1 =='1' return?",
+      "usertext":"",
+      "answer":{
+      "correctChoice":"True",
+      "pointsAwarded": 1
+    },
+    "messageIfIncorrect": "Sorry, that is incorrect! The correct answer is True. It returns true."
+    }
+    ]
+  }
+}
+}
